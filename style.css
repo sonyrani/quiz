@@ -1,0 +1,72 @@
+body {
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #b1a6a6;
+    
+    }
+    
+    .grid {
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: rgb(4, 9, 30);
+    padding: 10px 40px 40px 40px;
+    border-radius: 50px;
+    border: 2px solid #cbcbcb;
+    box-shadow: 10px 15px 5px #a05959;
+    }
+    
+    .grid h1 {
+    font-family: "sans-serif";
+    background-color: #e8d7dd;
+    font-size: 50px;
+    text-align: center;
+    color: #180a0a;
+    padding: 2px 0px;
+    border-radius: 40px;
+    }
+    
+    #score {
+    color: #91de2b;
+    text-align: center;
+    font-size: 30px;
+    }
+    
+    
+    .grid #question {
+    font-family: "monospace";
+    font-size: 30px;
+    color: #e1ebf3;
+    }
+    
+    
+    .buttons {
+    margin-top: 30px;
+    }
+    
+    #bt0, #bt1, #bt2, #bt3 {
+    background-color: #d6c7e1;
+    width: 200px;
+    font-size: 20px;
+    color: rgb(18, 20, 28);
+    border: 1px solid #3aa755;
+    border-radius: 40px;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+    }
+    
+    #bt0:hover, #bt1:hover, #bt2:hover, #bt3:hover {
+    cursor: pointer;
+    background-color: #62ce74; 
+    }   
+    
+    #bt0 :focus, #bt1:focus, #bt2:focus, #bt3:focus {
+    outline: 0;
+    }
+    
+    #progress {
+    color: #dfe161;
+    font-size: 18px;
+    }
+    
